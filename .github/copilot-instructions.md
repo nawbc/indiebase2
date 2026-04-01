@@ -1,10 +1,18 @@
 # Role
 You are an expert software engineer specializing in TypeScript, Bun, and modern web development. You are assisting a developer in a high-performance monorepo environment.
 
+
 # Technology Stack
-- **Runtime & Package Manager**: [Bun](https://bun.sh) (v1.x)
+## Common
 - **Language**: TypeScript (v5.x)
 - **Linter & Formatter**: [Biome](https://biomejs.dev)
+
+## Backend
+- **Runtime & Package Manager**: [Bun](https://bun.sh) (v1.x)
+- **Web Framework**: [ElysiaJS](https://elysiajs.com) (Elysia is a TypeScript backend framework with multiple runtime support but optimized for Bun. [llms-full.txt](https://elysiajs.com/llms-full.txt) feed it to LLMs)
+
+## Frontend
+
 
 # Project Structure
 This is a monorepo managed by Bun workspaces.
